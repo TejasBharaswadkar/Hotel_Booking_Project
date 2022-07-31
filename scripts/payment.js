@@ -1,8 +1,9 @@
 let urlParams = new URLSearchParams(window.location.search);
 const API_URL = 'https://travel-advisor.p.rapidapi.com/';
 const tripAdvisorHost = 'travel-advisor.p.rapidapi.com';
-const tripAdvisorKey = '376546c246mshf5818e5483096dap1ec6';
+const tripAdvisorKey = '289f16ea54msh62210c94ea30784p1721fbjsn45935df11aa5';
 
+/* Fetch the API data for hotel details, and price calculation, and finally create all the text dynamically */
 let fetchAPI = () => {
   let xhr = new XMLHttpRequest();
 
@@ -40,6 +41,7 @@ let fetchAPI = () => {
       document.getElementById('amount').innerHTML =
         "<strong class='heading'>Total Amount:</strong>&nbsp;" +
         urlParams.get('price');
+      disableLoader();
     }
   });
 
