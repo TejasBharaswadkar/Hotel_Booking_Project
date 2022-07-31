@@ -2,7 +2,7 @@ let urlParams = new URLSearchParams(window.location.search);
 
 const API_URL = 'https://travel-advisor.p.rapidapi.com/';
 const tripAdvisorHost = 'travel-advisor.p.rapidapi.com';
-const tripAdvisorKey = '376546c246mshf5818e5483096dap1ec6';
+const tripAdvisorKey = '376546c246mshf5818e5483096dap1ec6d9jsnc3786e1a599c';
 
 let initMap = (locations) => {
   let center = {

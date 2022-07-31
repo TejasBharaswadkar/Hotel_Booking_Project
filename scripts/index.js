@@ -3,7 +3,7 @@ const viewCity = document.getElementById('view-more-city-cards');
 
 const API_URL = 'https://travel-advisor.p.rapidapi.com/';
 const tripAdvisorHost = 'travel-advisor.p.rapidapi.com';
-const tripAdvisorKey = '376546c246mshf5818e5483096dap1ec6';
+const tripAdvisorKey = '376546c246mshf5818e5483096dap1ec6d9jsnc3786e1a599c';
 
 viewMoreBtn.addEventListener('click', () => {
   if (viewMoreBtn.innerText == 'View More') {
