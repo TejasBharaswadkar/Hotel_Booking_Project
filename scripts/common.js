@@ -3,7 +3,7 @@ class MyHeader extends HTMLElement {
     this.innerHTML = `<a href="index.html" class="header-logo">
           <img
             class="logo-img"
-            src="../assests/images/logo.png"
+            src="./assests/images/logo.png"
             alt="logo" /></a>
 
                 <button
